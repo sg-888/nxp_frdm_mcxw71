@@ -1,0 +1,9 @@
+description: DHT22温湿度传感器
+
+compatible: "aosong,dht22"
+
+properties:
+  gpios:
+    type: phandle-array
+    required: true
+    description: 数据引脚

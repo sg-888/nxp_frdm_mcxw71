@@ -1,0 +1,9 @@
+/ {
+	sensors {
+		dht22: dht22 {
+			compatible = "aosong,dht22";
+			gpios = <&gpioc 1 GPIO_ACTIVE_HIGH>;
+			status = "okay";
+		};
+	};
+};

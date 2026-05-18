@@ -1,0 +1,6 @@
+config DHT22
+    bool "DHT22 Temperature and Humidity Sensor (Project Private)"
+    default n
+    select GPIO
+    help
+      Project private driver for the DHT22 temperature and humidity sensor.
